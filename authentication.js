@@ -1,3 +1,3 @@
-export default (token = "") => {
-  return !!token.length;
+export default (token = "", password = "") => {
+  return !!token.length && !!password.length;
 };
